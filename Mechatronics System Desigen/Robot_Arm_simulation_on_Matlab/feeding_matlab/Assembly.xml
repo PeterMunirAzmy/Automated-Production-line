@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="peter" on="03/20/24||17:29:07" using="Simscape Multibody Link Version 7.4" from="Autodesk Inventor 2021.1 (Build 251245010, 245A)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Assembly2.iam" uid="Assembly2.iam_{78FD16DF-493C-2BF7-AA20-CBB529CA523D}" version="{6A64E512-F1F4-8076-D8B5-263816EAF552}">
+<AssemblyFile name="Assembly2.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="feeding_rotating_plate:1" uid="feeding_rotating_plate:1" entityUid="feeding_rotating_plate.ipt_{11D7745A-41A2-C003-CC76-0598EF5D2D60}">
+<Transform>
+<Rotation>-0.99534188236465471 0.096408180206242727 7.3339740777539333e-16 -0.096408180206230987 -0.99534188236466281 7.0368938957051864e-15 -4.0231643226178279e-16 2.9010517943671527e-15 0.99999999999997846</Rotation>
+<Translation>-51.746399590687417 -36.586054546236639 -8.0513563941172031</Translation>
+</Transform>
+</Instance>
+<Instance name="feeding_parts_stand:1" grounded="true" uid="feeding_parts_stand:1" entityUid="feeding_parts_stand.ipt_{8CC98AFF-4BAE-C25A-2462-49A958BC937A}">
+<Transform>
+<Rotation>0.99999999999999556 -4.4408920985004289e-16 0 1.1102230246250934e-16 0.999999999999999 0 0 0 0.99999999999999922</Rotation>
+<Translation>-66.746399590687389 -51.586054546236596 -8.7013563941172194</Translation>
+</Transform>
+</Instance>
+<Instance name="feeding_coupler_Nema17:1" uid="feeding_coupler_Nema17:1" entityUid="feeding_coupler_Nema17.ipt_{0135912C-4C30-67A8-A919-3682B38D31A3}">
+<Transform>
+<Rotation>-0.99534188236466747 0.096408180206243477 -3.2794432077755473e-16 -0.096408180206242561 -0.99534188236467624 0 -6.5964428461666598e-16 2.9296391697526067e-15 0.99999999999997435</Rotation>
+<Translation>-51.746399590687439 -36.586054546236596 -8.3013563941171959</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>0 3.5527136788005009e-15 0.25000000000000711</Position>
+<Axis>3.2958053751731532e-16 -2.9356754890718405e-15 1.0000000000000255</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_rotating_plate:1</Uid>
+</InstancePath>
+<Position>1.4210854715202004e-14 0 0</Position>
+<Axis>1.8107117234278447e-15 4.0323579123333854e-15 1.0000000000000213</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>0.50000000000002132 -0.50000000000001776 1.7763568394002505e-15</Position>
+<Axis>1.0000000000000406 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_rotating_plate:1</Uid>
+</InstancePath>
+<Position>0.50000000000004263 0.50000000000002842 0.40000000000000924</Position>
+<Axis>1.0000000000000544 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_rotating_plate:1</Uid>
+</InstancePath>
+<Position>-0.50000000000002132 -0.50000000000001776 0.40000000000000924</Position>
+<Axis>-1.0000000000000544 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>-0.50000000000001421 0.50000000000001421 1.7763568394002505e-15</Position>
+<Axis>-1.0000000000000406 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>-0.50000000000001421 -0.50000000000001776 0</Position>
+<Axis>0 -1.0000000000000318 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_rotating_plate:1</Uid>
+</InstancePath>
+<Position>0.50000000000003553 -0.50000000000001421 0.40000000000000924</Position>
+<Axis>-1.0894063429134353e-14 -1.0000000000000453 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>0 3.5527136788005009e-15 1.7763568394002505e-15</Position>
+<Axis>3.2958053751731532e-16 -2.9356754890718405e-15 1.0000000000000255</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>feeding_parts_stand:1</Uid>
+</InstancePath>
+<Position>15.000000000000085 15.000000000000014 0.40000000000000036</Position>
+<Axis>0 0 -1.0000000000000007</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_coupler_Nema17:1</Uid>
+</InstancePath>
+<Position>0 3.5527136788005009e-15 1.7763568394002505e-15</Position>
+<Axis>3.2958053751731532e-16 -2.9356754890718405e-15 1.0000000000000255</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>feeding_parts_stand:1</Uid>
+</InstancePath>
+<Position>15.000000000000085 15.000000000000014 0.40000000000000036</Position>
+<Axis>0 0 1.0000000000000007</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="feeding_coupler_Nema17.ipt" uid="feeding_coupler_Nema17.ipt_{0135912C-4C30-67A8-A919-3682B38D31A3}" version="{C64EFA8C-3FCF-00D3-5972-073BEDD20D79}">
+<PartFile name="feeding_coupler_Nema17.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0014841941860324706</Mass>
+<CenterOfMass>-0.0016675714895660397 0 0.35119754242412199</CenterOfMass>
+<Inertia>0.00040903977185592297 0.00040953070040971218 0.00056331409118490715 0 3.6828610292706694e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="feeding_coupler_Nema17_ipt_860a6420.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="feeding_parts_stand.ipt" uid="feeding_parts_stand.ipt_{8CC98AFF-4BAE-C25A-2462-49A958BC937A}" version="{7AB9620A-1B45-DE89-87BE-4B6058CA3533}">
+<PartFile name="feeding_parts_stand.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.19001964654589201</Mass>
+<CenterOfMass>14.999999999989727 15.000000000000002 0.19999999999999998</CenterOfMass>
+<Inertia>14.823871136060131 14.453003932445121 29.271807877930698 0 0 7.2759576141834261e-15</Inertia>
+</MassProperties>
+<GeometryFile name="feeding_parts_stand_ipt_1f4819e8.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="feeding_rotating_plate.ipt" uid="feeding_rotating_plate.ipt_{11D7745A-41A2-C003-CC76-0598EF5D2D60}" version="{97F1EFE5-39D4-3550-1EC5-B0A9B2B26865}">
+<PartFile name="feeding_rotating_plate.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.37645695916543342</Mass>
+<CenterOfMass>1.6835480614406544e-09 2.5002031560301767e-09 1.4924980089800541</CenterOfMass>
+<Inertia>20.765450742794332 20.765452994398306 40.053854788790751 -8.5416160683863534e-10 -3.8540637384930478e-11 -3.8986909187385465e-09</Inertia>
+</MassProperties>
+<GeometryFile name="feeding_rotating_plate_ipt_d2814483.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
