@@ -12,9 +12,7 @@
         <li><a href="#hardware-components">Hardware Components</a></li>
         <li><a href="#software">Software</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
         <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
     </ul>
 
 <h2 id="overview">Overview</h2>
@@ -78,22 +76,15 @@ cd automated-production-line</code></pre>
         </li>
         <li>Install the necessary software:
             <ul>
-                <li>Arduino IDE</li>
                 <li>MATLAB Simulink</li>
                 <li>Autodesk Inventor</li>
+                <li>PyCharm</li>
+                <li>Arduino IDE</li>
             </ul>
         </li>
         <li>Assemble the hardware components as per the design files provided.</li>
         <li>Upload the Arduino code to the Arduino Uno using the Arduino IDE.</li>
     </ol>
 
-<h2 id="usage">Usage</h2>
-    <ol>
-        <li>Power on the system.</li>
-        <li>Start the vision system for sorting.</li>
-        <li>Use the control interface to manage the production line stages.</li>
-        <li>Monitor the process through the simulations and adjust parameters as needed.</li>
-    </ol>
-
-    <h2 id="contributing">Contributing</h2>
+<h2 id="contributing">Contributing</h2>
     <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
