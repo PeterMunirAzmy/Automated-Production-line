@@ -85,6 +85,3 @@ cd automated-production-line</code></pre>
         <li>Assemble the hardware components as per the design files provided.</li>
         <li>Upload the Arduino code to the Arduino Uno using the Arduino IDE.</li>
     </ol>
-
-<h2 id="contributing">Contributing</h2>
-    <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
